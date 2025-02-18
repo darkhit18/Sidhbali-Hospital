@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sidhbali Hospital - Leading Healthcare Services">
+    <title>Sidhbali Hospital</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html" style="font-weight: bold;">Sidhbali Hospital</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#doctors">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-cover text-white text-center d-flex align-items-center"
+        style="background-image: url('assets/images/hospital.jpg'); height: 60vh;">
+        <div class="container">
+            <h1 class="display-4 animated fadeIn" style="color:blanchedalmond; font-weight: normal;">Welcome to Sidhbali Hospital</h1>
+            <p class="lead animated fadeIn" style="color: white;font-weight: normal;">Your Health, Our Priority</p>
+            <a href="#" class="btn btn-danger btn-lg animated fadeIn" data-toggle="modal"
+                data-target="#appointmentModal">Book an Appointment</a>
+
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Sidhbali Hospital is a state-of-the-art medical facility offering top-notch healthcare services.
+                        We specialize in a variety of medical fields, ensuring quality and compassionate care for all
+                        our patients. Our mission is to provide world-class medical treatment and services to improve
+                        the health and well-being of our community.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/hospital-building.jpg" alt="Sidhbali Hospital"
+                        class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet Our Doctors</h2>
+            <div class="row">
+                <!-- Doctor 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center shadow">
+                        <img src="assets/images/doctor1.jpg" alt="Doctor"
+                            class="card-img-top rounded-circle mx-auto mt-3" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. John Doe</h5>
+                            <p class="card-text">Cardiologist</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Doctor 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center shadow">
+                        <img src="assets/images/doctor2.jpg" alt="Doctor"
+                            class="card-img-top rounded-circle mx-auto mt-3" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Janii Smith</h5>
+                            <p class="card-text">Orthopedist</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Doctor 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center shadow">
+                        <img src="assets/images/doctor3.jpg" alt="Doctor"
+                            class="card-img-top rounded-circle mx-auto mt-3" style="width: 150px; height: 150px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Sarah Brown</h5>
+                            <p class="card-text">Pediatrician</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="services" class="testimonials py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Patients Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <p class="card-text">"The care and attention I received at Sidhbali Hospital was
+                                exceptional. The staff were incredibly helpful, and my treatment was top-notch."</p>
+                            <h5 class="card-title">John D.</h5>
+                            <p class="card-text">Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <p class="card-text">"I had a fantastic experience. The doctors are highly skilled and the
+                                hospital facilities are modern and comfortable."</p>
+                            <h5 class="card-title">Emily R.</h5>
+                            <p class="card-text">Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <p class="card-text">"Sidhbali Hospital provided the best care during my surgery. I felt
+                                safe and well taken care of at all times."</p>
+                            <h5 class="card-title">Michael S.</h5>
+                            <p class="card-text">Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Sidhbali Hospital | All Rights Reserved</p>
+            <div>
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Appointment Modal -->
+    <div class="modal fade" id="appointmentModal" tabindex="-1" role="dialog" aria-labelledby="appointmentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="appointmentModalLabel">Book Your Appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Appointment Form -->
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="doctor">Select Doctor</label>
+                            <select class="form-control" id="doctor" required>
+                                <option value="cardiologist">Cardiologist</option>
+                                <option value="orthopedist">Orthopedist</option>
+                                <option value="pediatrician">Pediatrician</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

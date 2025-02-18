@@ -1,0 +1,184 @@
+/* Custom Styles for Hospital Site */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('../assets/images/hospital.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* Services Cards */
+.services .card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.services .card:hover {
+    transform: translateY(-10px);
+}
+
+.services .card .card-body {
+    background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+footer a:hover {
+    color: #f39c12;
+}
+
+/* Bootstrap Utilities */
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #fff !important;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f39c12;
+    color: white !important;
+}
+
+/* Media Queries */
+/* Mobile Devices (small screens like phones) */
+@media (max-width: 576px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem; /* Smaller heading on mobile */
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Smaller paragraph text */
+    }
+
+    .hero a {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+
+/* Tablet Devices (medium screens like tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .hero {
+        height: 55vh;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem; /* Adjust heading size */
+    }
+
+    .hero p {
+        font-size: 1.4rem; /* Adjust paragraph text */
+    }
+
+    .hero a {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Desktop Devices */
+@media (min-width: 769px) {
+    .hero {
+        height: 60vh; /* Larger height on desktop */
+    }
+
+    .hero h1 {
+        font-size: 3.5rem; /* Larger heading text */
+    }
+
+    .hero p {
+        font-size: 1.6rem; /* Larger paragraph text */
+    }
+
+    .hero a {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+}
+
+/* Large Desktop Devices */
+@media (min-width: 1200px) {
+    .hero h1 {
+        font-size: 4rem; /* Large heading size for large screens */
+    }
+
+    .hero p {
+        font-size: 1.8rem; /* Larger paragraph text */
+    }
+
+    .hero a {
+        font-size: 1.3rem;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    color: blanchedalmond;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: white;
+}
+
+.hero a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red color */
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #c82333; /* Darker red */
+}
